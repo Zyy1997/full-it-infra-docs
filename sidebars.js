@@ -24,7 +24,7 @@ const sidebars = {
       collapsed: true,
       items: [
         // 未来可加：
-        // 'network-architecture',
+        'network-architecture',
         // 'vpn-access',
       ],
     },
@@ -34,7 +34,7 @@ const sidebars = {
       label: '🔐 账号与权限管理',
       collapsed: true,
       items: [
-        // 'account-management',
+        'account-management',
         // 'mfa-policy',
       ],
     },
@@ -44,7 +44,7 @@ const sidebars = {
       label: '☁ 云资源管理',
       collapsed: true,
       items: [
-        // 'aws-production',
+        'aws-production',
         // 'cloud-backup-policy',
       ],
     },
@@ -54,7 +54,7 @@ const sidebars = {
       label: '🖥 IT资产与设备管理',
       collapsed: true,
       items: [
-        // 'asset-management',
+        'asset-management',
       ],
     },
 
@@ -63,7 +63,7 @@ const sidebars = {
       label: '🚨 应急与安全响应',
       collapsed: true,
       items: [
-        // 'incident-response',
+        'incident-response',
       ],
     },
   ],
