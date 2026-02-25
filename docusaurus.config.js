@@ -74,7 +74,7 @@ const config = {
           position: 'left',
           label: '文档',
         },
-        {to: '/blog', label: '博客', position: 'left'},
+        //{to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/Zyy1997/full-it-infra-docs',
           label: 'GitHub',
@@ -95,7 +95,7 @@ const config = {
         {
           title: '更多',
           items: [
-            {label: '博客', to: '/blog'},
+            //{label: '博客', to: '/blog'},
             {
               label: 'GitHub',
               href: 'https://github.com/Zyy1997/full-it-infra-docs',
