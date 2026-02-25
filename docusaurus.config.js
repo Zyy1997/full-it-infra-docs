@@ -13,7 +13,7 @@ const config = {
   },
 
   // GitHub Pages 配置
-  url: 'https://zyy1997.github.io/',
+  url: 'https://Zyy1997.github.io/',
   baseUrl: '/full-it-infra-docs/',
 
   organizationName: 'Zyy1997',
