@@ -13,10 +13,10 @@ const config = {
   },
 
   // GitHub Pages 配置
-  url: 'https://bruce4611.github.io',
+  url: 'https://zyy1997.github.io/',
   baseUrl: '/full-it-infra-docs/',
 
-  organizationName: 'Bruce4611',
+  organizationName: 'Zyy1997',
   projectName: 'full-it-infra-docs',
 
   trailingSlash: false,
@@ -36,12 +36,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/Bruce4611/full-it-infra-docs/tree/main/',
+            'https://github.com/Zyy1997/full-it-infra-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/Bruce4611/full-it-infra-docs/tree/main/',
+            'https://github.com/Zyy1997/full-it-infra-docs/edit/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -76,7 +76,7 @@ const config = {
         },
         {to: '/blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/Bruce4611/full-it-infra-docs',
+          href: 'https://github.com/Zyy1997/full-it-infra-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -98,7 +98,7 @@ const config = {
             {label: '博客', to: '/blog'},
             {
               label: 'GitHub',
-              href: 'https://github.com/Bruce4611/full-it-infra-docs',
+              href: 'https://github.com/Zyy1997/full-it-infra-docs',
             },
           ],
         },
