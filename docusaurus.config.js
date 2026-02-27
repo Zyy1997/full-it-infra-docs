@@ -66,6 +66,7 @@ const config = {
       logo: {
         alt: 'TRON IT',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {
