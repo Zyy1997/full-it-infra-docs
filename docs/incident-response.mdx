@@ -6,7 +6,17 @@ sidebar_label: 故障响应 SOP
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+<style>
+  .tabs-with-border {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+</style>
+
 # 🚨 企业 IT 系统故障响应与处理机制标准作业程序 (SOP)
+
+---
 
 ## 一、适用范围
 
@@ -20,7 +30,7 @@ import TabItem from '@theme/TabItem';
 
 ## 三、核心故障排查与操作步骤
 
-<Tabs>
+<Tabs className="tabs-with-border">
   <TabItem value="账号与密码系统故障" label="场景 1：账号与密码系统故障（高危）">
     **故障表现**：用户遗忘密码、被锁定，或通过私人 Slack 直接要求 IT 修改密码。
     

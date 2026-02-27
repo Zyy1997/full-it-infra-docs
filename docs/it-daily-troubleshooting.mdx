@@ -6,6 +6,14 @@ sidebar_label: 日常故障处理
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+<style>
+  .tabs-with-border {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+</style>
+
 # IT 日常故障处理文档
 
 ## 办公无线网（Wi-Fi）用户连接指南
@@ -14,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
 所有设备首次接入前，必须将设备 MAC 地址提交 IT 加入白名单。
 
-<Tabs>
+<Tabs className="tabs-with-border">
   <TabItem value="macos" label="MacOS 系统">
     ## 1️⃣ 获取设备 Wi-Fi MAC 地址
 
@@ -85,7 +93,7 @@ import TabItem from '@theme/TabItem';
     输入 Wi-Fi 账号密码即可。
   </TabItem>
 </Tabs>
-
+---
 ## 📌 注意事项
 
 - 所有设备必须关闭“私有地址”功能

@@ -6,7 +6,17 @@ sidebar_label: 资产管理 SOP
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+<style>
+  .tabs-with-border {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+</style>
+
 # 企业 IT 资产全生命周期管理标准作业程序 (SOP)
+
+---
 
 ## 适用范围
 本 SOP 适用于公司全球范围内所有 IT 实体资产（如 MacBook、YubiKey 硬件密钥、考勤机等）及网络虚拟授权（如系统 License）的采购、入库、领用、运维与回收淘汰管理。
@@ -69,9 +79,11 @@ import TabItem from '@theme/TabItem';
    - **审计留痕**：IT 必须邮件正式回复财务"数据已清理完毕"，财务方可推进扣款回购流程
    - **远程监管**：若员工远程办公，IT 必须通过视频连线全程监督数据清理。拒不配合者，一律取消回购资格
 
+---
+
 ## 注意事项与风控规避
 
-<Tabs>
+<Tabs className="tabs-with-border">
   <TabItem value="采购合规风险" label="采购合规风险">
     **风险描述**：若业务方未经授权"先斩后奏"直接采购，IT 拒绝常规入库与付款。
     
@@ -89,12 +101,16 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
+---
+
 ## 异常处理机制
 
 | 异常类型 | 处理措施 |
 |---------|----------|
 | **资产遗失/损坏** | 员工需第一时间向 IT 报备，若是安全密钥（YubiKey）丢失，IT 需立即从系统后台（如 Google Admin）移除该安全密钥，防止外部恶意登录 |
 | **收货信息不匹配** | 若行政在验收时发现 S/N 码与采购单不符或外观破损，应立即原路退回并冻结入库流程，由采购部介入与供应商交涉 |
+
+---
 
 ## 流程概览
 

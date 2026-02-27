@@ -6,8 +6,16 @@ sidebar_label: 账户管理 SOP
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 企业账户管理体系设计与实施指南 (SOP)
+<style>
+  .tabs-with-border {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+</style>
 
+# 企业账户管理体系设计与实施指南 (SOP)
+---
 ## 一、适用范围与设计目标
 
 ### 适用对象
@@ -92,6 +100,8 @@ import TabItem from '@theme/TabItem';
 | **YubiKey遗失** | 用户需立即通过备用MFA验证方式登录Google账号管理页面，删除遗失设备对应的安全密钥记录，同时向IT运维部门提交报备申请，申领新的YubiKey设备并完成绑定。 |
 | **用户反馈无法连接Wi-Fi且无法打开 `2.2.2.1`** | 指导用户排查并确认设备网络列表中"私有MAC地址"功能已彻底关闭，IT运维人员同步在AC控制器后台二次核查MAC地址白名单配置，确认无误后协助用户恢复联网。 |
 
+---
+
 ## 流程概览
 
 ```mermaid
@@ -109,10 +119,10 @@ flowchart TD
     K --> L[资产回收]
     L --> M[数据抹除]
 ```
-
+---
 ## 关键风险控制点
 
-<Tabs>
+<Tabs className="tabs-with-border">
   <TabItem value="权限管理风险" label="权限管理风险">
     **风险描述**：越权操作、权限滥用可能导致数据泄露或系统安全事件。
     
